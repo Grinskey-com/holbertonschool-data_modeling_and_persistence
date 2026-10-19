@@ -1,0 +1,1 @@
+SELECT title, Price FROM books WHERE Price > 20;
