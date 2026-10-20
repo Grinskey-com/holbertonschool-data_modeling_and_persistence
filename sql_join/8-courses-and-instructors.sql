@@ -4,6 +4,6 @@ SELECT
 FROM
     courses c
 INNER JOIN
-    instructors i ON c.instructor_id = c.instructor_id
+    instructors i ON c.instructor_id = i_id
 ORDER BY
     course_title ASC;
